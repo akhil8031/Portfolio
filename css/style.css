@@ -1,0 +1,60 @@
+body{
+	margin: 0 auto;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url("../img/bk3blur.jpg") 0 0 / cover;
+	overflow: hidden;
+}
+
+#blur-effect {
+	display: none;
+	position: relative;
+}
+/*
+.view{
+	margin: 0 auto;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	/*background-image: url("../img/background_home.jpg");
+	background-size: cover;
+	
+}
+*/
+.home{
+	margin-left: 0px;
+	margin-top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#name{
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	font-size: 105px;
+	font-family: 'Pacifico', cursive;
+	color: #20c4cb;
+	resize: none;
+	text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+
+}
+
+#desp{
+	color: #d9d9d9;
+	text-align: left;
+	margin-left: 12%;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 1%;
+	resize: none;
+}
+
